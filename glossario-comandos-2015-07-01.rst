@@ -36,7 +36,7 @@ help
   Descrição do comando
 
 
-HISTTIMEFORMAT="%d/%m/%y
+HISTTIMEFORMAT="%d/%m/%y"
   Descrição do comando
 
 
