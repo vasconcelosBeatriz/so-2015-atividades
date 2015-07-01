@@ -9,7 +9,7 @@ Glossário de comandos
 :Data: 01/07/2015
 
 cat
-  Descrição do comando
+  Exibir o que há dentro de um determinado arquivo de texto. Ex.: cat historico.txt
 
 
 cd
