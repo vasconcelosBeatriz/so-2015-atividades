@@ -4,8 +4,8 @@ Glossário de comandos
 
 :Disciplina: Fundamentos de Sistemas Operacionais
 :Professor: Jurandy Soares
-:Nome: Seu nome completo
-:Matrícula: Sua matrícula
+:Nome: Beatriz Vasconcelos
+:Matrícula: 20121144010400
 :Data: 01/07/2015
 
 cat
@@ -13,8 +13,10 @@ cat
 
 
 cd
-  Descrição do comando
-
+  Entrar ou sair de um determinado diretório. 
+  
+  Ex.: cd (para sair do diretório autal) 
+       cd /var/www/html (entrar no diretório especificado)
 
 cowsay
   Descrição do comando
@@ -25,7 +27,7 @@ echo
 
 
 env
-  Descrição do comando
+  Mostrar as variáveis de ambiente. Ex.: env
 
 
 exit
@@ -41,7 +43,7 @@ HISTTIMEFORMAT="%d/%m/%y"
 
 
 hostname
-  Descrição do comando
+  Comando que exibe o nome da máquina. Ex.: hostname
 
 
 ifconfig
@@ -57,11 +59,13 @@ lastb
 
 
 ls
-  Descrição do comando
+  Lista os arquivos que estão dentro do seu diretório atual. 
+  
+  Ex.: ls
 
 
 mkdir
-  Descrição do comando
+  Criar um novo diretório/pasta. Ex.: mkdir informatica
 
 
 nome="fulano
@@ -73,7 +77,7 @@ passswd
 
 
 pwd
-  Descrição do comando
+  Mostrar o diretório atual do usuário. Ex.: pwd
 
 
 set
@@ -113,7 +117,7 @@ who
 
 
 whoami
-  Descrição do comando
+  Exibir o nome do usuário. Ex.: whoami
 
 write
   Descrição do comando
