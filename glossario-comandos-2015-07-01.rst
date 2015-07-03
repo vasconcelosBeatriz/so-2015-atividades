@@ -11,114 +11,103 @@ Glossário de comandos
 cat
   Exibir o que há dentro de um determinado arquivo de texto. Ex.: cat historico.txt
 
-
 cd
   Entrar ou sair de um determinado diretório. 
-  
   Ex.: cd (para sair do diretório autal) 
        cd /var/www/html (entrar no diretório especificado)
 
 cowsay
-  Descrição do comando
-
+  Promove a interação entre usuários, possibilitando o envio de mensagens.
+  Ex.: cowsay poney
+       cowsay poney | write pamela
 
 echo
-  Descrição do comando
-
+  Mostra os argumentos na saída pradrão. 
+  Ex.: echo $HOME
+       echo "SO - IFRN" >> teste.txt
 
 env
   Mostrar as variáveis de ambiente. Ex.: env
 
-
 exit
-  Descrição do comando
-
+  Provoca o término de uma sessão Ex.: exit
 
 help
-  Descrição do comando
-
+  Exibe todas as informações e utilidades dos comandos existentes no terminal. 
+  Ex.: help
+       help while cd
 
 HISTTIMEFORMAT="%d/%m/%y"
-  Descrição do comando
-
+  Define um novo formato para a data do history. 
+  Ex.: HISTTIMEFORMAT="%d/%m/%y"
+       HISTTIMEFORMAT="%m/%d/%y"
 
 hostname
   Comando que exibe o nome da máquina. Ex.: hostname
 
-
 ifconfig
-  Descrição do comando
-
+  Usado para configurar as interfaces de rede. Ex.: ifconfig
 
 last
-  Descrição do comando
-
-
+  Exibe todas as últimas entradas e saídas de usuários. 
+  Ex.: last
+       last -R
+       last -x
+       last -d
+  
 lastb
   Descrição do comando
 
-
 ls
   Lista os arquivos que estão dentro do seu diretório atual. 
-  
   Ex.: ls
-
 
 mkdir
   Criar um novo diretório/pasta. Ex.: mkdir informatica
 
-
-nome="fulano
-  Descrição do comando
-
+nome="fulano"
+  Corresponde a criação de uma variável qualquer. Ex.: idade="17"
 
 passswd
-  Descrição do comando
-
+  Redefinir a senha para login. Ex.: passwd
 
 pwd
   Mostrar o diretório atual do usuário. Ex.: pwd
 
-
 set
-  Descrição do comando
-
+  Mostrar as variáveis de ambiente no Windows/cmd. Ex.: set
 
 tree
-  Descrição do comando
-
+  Lista o conteúdo de um diretório em forma de árvore. 
+  Ex.: tree -a
+       tree -d
 
 tty
-  Descrição do comando
-
+  Mostra a porta em que o usuário está conectado. 
+  Ex.: tty
+       tty beatriz
 
 vim
-  Descrição do comando
-
+  Editar e visualizar arquivos de texto. Ex.: vim historico.txt
 
 wait
-  Descrição do comando
-
+  
 
 wall
-  Descrição do comando
-
+  Envia a mensagem pra todos os usuários logados. Ex.: wall "mensagem"
 
 which
-  Descrição do comando
-
+  busca arquivos no sistema de formaa rápida. Ex.: which httpd resultado./usr/sbin/httpd
 
 while
-  Descrição do comando
-
+  Executa um bloco de comando enquanto sua condição for verdadeira. Ex.: while[$name="nação"]
 
 who
-  Descrição do comando
-
+  Identifica quem está conectado. Ex.: who
 
 whoami
   Exibir o nome do usuário. Ex.: whoami
 
 write
-  Descrição do comando
+  Escrever uma mensagem para um usuário. Ex.: write pamela "oi, pamys"
 
